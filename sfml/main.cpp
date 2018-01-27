@@ -10,7 +10,7 @@ int main()
 	Sprite heroSprite; //создаём объект Sprite(спрайт)
 	heroSprite.setTexture(heroTexture);//передаём в него объект Texture (текстуры)
 	heroSprite.setPosition(50, 25);//задаём координаты появления спрайта
-	
+	///////////////////////////////////////////////////////////////////////////////////
 
 	while (window.isOpen())
 	{
