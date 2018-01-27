@@ -10,6 +10,8 @@ int main()
 	Sprite heroSprite; //создаём объект Sprite(спрайт)
 	heroSprite.setTexture(heroTexture);//передаём в него объект Texture (текстуры)
 	heroSprite.setPosition(50, 25);//задаём координаты появления спрайта
+	heroSprite.setTextureRect(IntRect(0,192,96,96)); // Получили нужный прямоугольник с котом
+
 	///////////////////////////////////////////////////////////////////////////////////
 
 	while (window.isOpen())
