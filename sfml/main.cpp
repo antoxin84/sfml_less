@@ -12,6 +12,7 @@ int main()
 	heroSprite.setPosition(50, 25);//задаём координаты появления спрайта
 	//проверка изминений git
 	//проверка 2
+	//проверка 3
 
 	while (window.isOpen())
 	{
